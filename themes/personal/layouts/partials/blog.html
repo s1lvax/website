@@ -1,0 +1,11 @@
+<h2>Blog</h2>
+<ul>
+  {{ range first 5 (where site.RegularPages "Section" "posts") }}
+  <li>
+    {{ (.PublishDate | time).Format "2006-01-02" }} –
+    <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+<a href="/posts">view all →</a>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reflections on Cesario Silva</title>
+    <link>http://localhost:1313/tags/reflections/</link>
+    <description>Recent content in Reflections on Cesario Silva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/reflections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How My Love for Technology Pushed Me to Digital Minimalism</title>
+      <link>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</guid>
+      <description>Technology is incredible—it entertains us, simplifies life, and can even be a source of income. But beneath its glossy surface lie significant downsides that are often overlooked.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,6 @@
+baseURL = 'https://cfsilva.com/'
+languageCode = 'en-us'
+title = 'Cesario Silva'
+
+theme = "personal"
+
