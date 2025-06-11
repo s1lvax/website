@@ -3,4 +3,4 @@ languageCode = 'en-us'
 title = 'Cesario Silva'
 
 theme = "personal"
-
+enableRobotsTXT = true
