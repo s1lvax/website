@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Cesario Silva</title>
+    <link>http://localhost:1313/books/</link>
+    <description>Recent content in Books on Cesario Silva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 22:31:53 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red Rising</title>
+      <link>http://localhost:1313/books/red-rising/</link>
+      <pubDate>Wed, 11 Jun 2025 22:31:53 +0200</pubDate>
+      <guid>http://localhost:1313/books/red-rising/</guid>
+      <description>My Thoughts The first Red Rising book was absolutely amazing. I loved all the characters, especially Darrow.&#xA;The story was captivating and intriguing, the world building was spot on and it left me waiting more. The plot twists were on point and caught me off guard. There were countless moments that I spent laughing and waiting to find out more about the story.&#xA;I already started reading the second book.</description>
+    </item>
+    <item>
+      <title>Rework</title>
+      <link>http://localhost:1313/books/rework/</link>
+      <pubDate>Wed, 11 Jun 2025 21:47:40 +0200</pubDate>
+      <guid>http://localhost:1313/books/rework/</guid>
+      <description>My Thoughts I loved this book and it totally fits into my view on productivity. When you work, work hard, but when you rest, rest without excuse. I&amp;rsquo;ve been a fan of Deep Work for a long time and this book talks about it as well.&#xA;It also speaks on issues like chaos at work, unorganized jobs, pointless meetings, which I agree with as well.&#xA;If you&amp;rsquo;re looking to redefine what productivity is and give up those thoughts of working 75 hours a week, this is the book for you.</description>
+    </item>
+  </channel>
+</rss>

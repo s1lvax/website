@@ -1,0 +1,50 @@
+{{ define "main" }}
+<h2>My Reading List</h2>
+<p>
+  Welcome to my list of books. Here you can find about topics I write about that
+  don't belong in my blog. This mainly focuses on media so if you're looking for
+  more serious posts, please <a href="/posts">visit the blog</a>.
+</p>
+
+{{ $now := now }} {{ $thisYear := $now.Year }} {{ $readBooks := where .Pages
+"Params.status" "read" }} {{ $readThisYear := where $readBooks ".Date.Year"
+$thisYear }} {{ $readAllTime := len $readBooks }} {{ $readThisYearCount := len
+$readThisYear }} {{/* ========================== */}}
+
+<div class="reading-stats">
+  <p>
+    <span class="stat-label">📚 Total Read:</span>
+    <span class="stat-number">{{ $readAllTime }}</span>
+  </p>
+  <p>
+    <span class="stat-label">📅 Read in {{ $thisYear }}:</span>
+    <span class="stat-number">{{ $readThisYearCount }}</span>
+  </p>
+</div>
+
+<div class="reading-grid">
+  <div class="reading-column">
+    <h3>Read</h3>
+    <ul>
+      {{ range where .Pages "Params.status" "read" }}
+      <li>
+        <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a> -
+        <span class="rating"
+          >{{ range seq 1 5 }}{{ if le . $.Params.rating }}★{{ else }}☆{{ end
+          }}{{ end }}</span
+        >
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="reading-column">
+    <h3>Planning to Read</h3>
+    <ul>
+      {{ range where .Pages "Params.status" "planning" }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> -</li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
