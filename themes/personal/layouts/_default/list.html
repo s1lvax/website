@@ -1,5 +1,19 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<p>
+  Welcome to my lists. Here you can find about topics I write about that don't
+  belong in my blog. This mainly focuses on media so if you're looking for more
+  serious posts, please <a href="/blog">visit the blog</a>.
+</p>
 {{ .Content }} {{ range .Pages }}
 <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-{{ .Summary }} {{ end }} {{ end }}
+{{ end }} {{ end }}
+
+<ul>
+  {{ range .Pages }}
+  <li>
+    {{ (.PublishDate | time).Format "2006-01-02" }} –
+    <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <p>{{ .Summary }}</p>
+  </li>
+  {{ end }}
+</ul>

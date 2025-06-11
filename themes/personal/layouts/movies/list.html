@@ -1,0 +1,53 @@
+{{ define "main" }}
+<h2>My Movie List</h2>
+<p>
+  Welcome to my list of movies. Here you can find topics I write about that
+  don't belong in my blog. This mainly focuses on media, so if you're looking
+  for more serious posts, please <a href="/posts">visit the blog</a>.
+</p>
+
+{{ $now := now }} {{ $thisYear := $now.Year }} {{ $watched := where .Pages
+"Params.status" "watched" }} {{ $planning := where .Pages "Params.status"
+"planning" }} {{ $watchedThisYear := where $watched ".Date.Year" $thisYear }} {{
+$watchedAllTime := len $watched }} {{ $watchedThisYearCount := len
+$watchedThisYear }}
+
+<div class="media-stats">
+  <p>
+    <span class="stat-label">🎬 Total Watched:</span>
+    <span class="stat-number">{{ $watchedAllTime }}</span>
+  </p>
+  <p>
+    <span class="stat-label">📆 Watched in {{ $thisYear }}:</span>
+    <span class="stat-number">{{ $watchedThisYearCount }}</span>
+  </p>
+</div>
+
+<div class="media-grid">
+  <div class="media-column">
+    <h3>Watched</h3>
+    <ul class="media-list">
+      {{ range $watched }}
+      <li>
+        <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="rating">
+          {{ range seq 1 5 }}{{ if le . $.Params.rating }}★{{ else }}☆{{ end
+          }}{{ end }}
+        </span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="media-column">
+    <h3>Planning to Watch</h3>
+    <ul class="media-list">
+      {{ range $planning }}
+      <li>
+        <a class="media-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
