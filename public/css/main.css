@@ -52,13 +52,13 @@ header {
 .main-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 3rem;
   margin-top: 2rem;
 }
 
 .main-grid > div {
   background-color: transparent;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: left;
 }
 
@@ -87,7 +87,7 @@ h2 {
 }
 
 a {
-  color: #17bee3;
+  color: #17a6e3;
   text-decoration: none;
 }
 
