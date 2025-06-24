@@ -1,6 +1,6 @@
 baseURL = 'https://cfsilva.com/'
 languageCode = 'en-us'
-title = 'Cesario Silva'
+title = "Cesario's Website"
 
 theme = "personal"
 enableRobotsTXT = true
