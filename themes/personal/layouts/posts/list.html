@@ -1,19 +1,49 @@
+
 {{ define "main" }}
+<h2>My Blog Posts</h2>
 <p>
-  Welcome to my lists. Here you can find about topics I write about that don't
-  belong in my blog. This mainly focuses on media so if you're looking for more
-  serious posts, please <a href="/posts">visit the blog</a>.
+  Welcome to my collection of blog posts. Here you'll find things I’ve written about over time.
+  If you're more interested in media-focused entries, please <a href="/movies">check out the movie list</a>.
 </p>
-{{ .Content }} {{ range .Pages }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-{{ end }} {{ end }}
+
+{{ $now := now }}
+{{ $thisYear := $now.Year }}
+{{ $posts := .Pages }}
+{{ $postsThisYear := where $posts ".Date.Year" $thisYear }}
+{{ $postsAllTime := len $posts }}
+{{ $postsThisYearCount := len $postsThisYear }}
+
+<div class="media-stats">
+  <p>
+    <span class="stat-label">📝 Total Posts:</span>
+    <span class="stat-number">{{ $postsAllTime }}</span>
+  </p>
+  <p>
+    <span class="stat-label">📆 Posts in {{ $thisYear }}:</span>
+    <span class="stat-number">{{ $postsThisYearCount }}</span>
+  </p>
+</div>
+
+{{ $tags := .Site.Taxonomies.tags }}
+{{ if $tags }}
+  <div class="tags-filter">
+    <p><strong>Filter by tag:</strong></p>
+    <ul>
+      {{ range $tag, $pages := $tags }}
+      <li style="display: inline-block; margin-right: 0.5rem;">
+        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}">#{{ $tag }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
 
 <ul>
-  {{ range .Pages }}
+  {{ range $posts }}
   <li>
     {{ (.PublishDate | time).Format "2006-01-02" }} –
     <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <p>{{ .Summary }}</p>
   </li>
   {{ end }}
 </ul>
+{{ end }}

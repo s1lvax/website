@@ -6,8 +6,15 @@
     <description>Recent content in Home on Cesario Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jun 2025 22:31:53 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jun 2025 20:41:30 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Think Ruby on Rails Is Better Than Next.js</title>
+      <link>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</link>
+      <pubDate>Tue, 24 Jun 2025 20:41:30 +0200</pubDate>
+      <guid>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</guid>
+      <description>Over the past few days, I’ve been working with Next.js on a project at my company. It’s one of my first serious experiences with the framework. I had briefly tried it before, but chose Svelte instead when working with TypeScript. These days, I prefer Ruby on Rails 8.&#xA;Now that I’ve spent some time building real features with what many call the most popular framework in the world, I honestly can’t understand why it’s so mainstream.</description>
+    </item>
     <item>
       <title>Red Rising</title>
       <link>http://localhost:1313/books/red-rising/</link>

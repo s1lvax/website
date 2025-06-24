@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/programming/</loc>
+    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ruby-on-rails/</loc>
+    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</loc>
+    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/books/</loc>
     <lastmod>2025-06-11T22:31:53+02:00</lastmod>
   </url><url>
@@ -20,14 +35,9 @@
     <loc>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</loc>
     <lastmod>2023-12-11T13:05:48+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-12-11T13:05:48+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<meta
+  name="description"
+  content="Personal website of a full stack developer exploring technology, digital minimalism, and programming. Read thoughtful blog posts, discover projects, and get in touch."
+/>
+<title>
+  Why I Think Ruby on Rails Is Better Than Next.js | Cesario Silva
+</title>
+
+<link rel="stylesheet" href="/css/main.css" />
+ 
+      <script src="/js/main.js"></script>
+ 
+
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Cesario Silva</h1>
+</header>
+      <main>
+<a href="/posts">[← Back]</a><br />
+
+<h1>Why I Think Ruby on Rails Is Better Than Next.js</h1>
+
+ 
+<time datetime="2025-06-24T20:41:30&#43;02:00">June 24, 2025</time>
+
+<p>Over the past few days, I’ve been working with Next.js on a project at my company. It’s one of my first serious experiences with the framework. I had briefly tried it before, but chose Svelte instead when working with TypeScript. These days, I prefer Ruby on Rails 8.</p>
+<p>Now that I’ve spent some time building real features with what many call the most popular framework in the world, I honestly can’t understand why it’s so mainstream.</p>
+<p>Here’s why I think <strong>Ruby on Rails is better</strong>:</p>
+<h2 id="a-power-tool-not-just-a-framework">A Power Tool, Not Just a Framework</h2>
+<p>With Rails, you get everything you need to build a large-scale full stack application out of the box. Need async jobs? Use <strong>Solid Queue</strong>. Caching? <strong>Solid Cache</strong>. Real-time WebSocket updates? <strong>Solid Cable</strong>. It’s not just a framework — it’s a full toolkit with batteries included.</p>
+<p>Also, remember how you always have to include Redis in production with Next.js? In Rails, you can often just use your default database (even SQLite) for background jobs. That’s one less dependency to manage.</p>
+<p>In the past, I appreciated frameworks like Svelte and React for their SPA capabilities. But today, with <strong>Hotwire/Turbo</strong>, Rails offers the same experience — and in my opinion, it’s even simpler.</p>
+<h2 id="syntax">Syntax</h2>
+<p>Honestly, I find the Next.js/React syntax frustrating. And I truly believe anyone who claims otherwise is kidding themselves. Why does creating a reactive variable require so much boilerplate?</p>
+<p>You need a surprising amount of code just to build something basic. And constantly returning divs doesn’t feel odd to anyone?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">useState</span> } <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Counter() {</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">count</span>, <span style="color:#a6e22e">setCount</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#ae81ff">0</span>); <span style="color:#75715e">// reactive variable
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">Count</span><span style="color:#f92672">:</span> {<span style="color:#a6e22e">count</span>}&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">setCount</span>(<span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)}&gt;<span style="color:#a6e22e">Increment</span>&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Compared to Svelte, which allows you to write straightforward, clean code with minimal overhead, React/Next.js often feels like overengineering.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">count</span>: <span style="color:#66d9ef">number</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">Count</span><span style="color:#f92672">:</span> {<span style="color:#a6e22e">count</span>}&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">on</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#a6e22e">click</span><span style="color:#f92672">=</span>{() <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>}&gt;<span style="color:#a6e22e">Increment</span>&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span></code></pre></div><h2 id="deployment">Deployment</h2>
+<p>I typically deploy Rails apps using <strong>Kamal 2</strong>, a tool built by DHH (the creator of Rails). With minimal configuration, I can deploy to multiple servers, including databases, using plain Docker and a simple VPS.</p>
+<p>Maybe it’s just me, but I couldn’t get anything comparable working with Next.js. I’ve deployed SvelteKit, Rails, and even Go apps without a hitch — but Next.js? Always issues.</p>
+<p>Funnily enough, the moment you use Vercel or Azure, everything magically works. Curious, huh?</p>
+<h2 id="security-issues">Security Issues</h2>
+<p>Let’s not forget the <a href="https://www.cve.org/CVERecord?id=CVE-2025-29927">major middleware vulnerability in Next.js</a>. It’s a reminder that even the trendiest tools aren’t immune to serious security flaws.</p>
+<h2 id="culture">Culture</h2>
+<p>I strongly believe in mature, stable technologies. No, I don’t think AI needs to be included in every single app. Like AI, Next.js is constantly evolving — syntax and conventions change often, forcing developers to frequently update their code.</p>
+<p>Rails also evolves, but in a much more deliberate and stable way. It’s a 20-year-old framework with thoughtful, paced improvements. The Next.js culture, on the other hand, feels like it’s always chasing the next new thing. That’s just not my style.</p>
+<p>People often criticize me for preferring Basecamp over Monday or Jira, or for driving an old Volkswagen instead of a new electric Mercedes. That’s just who I am — and Rails fits that philosophy perfectly. It updates only when needed, once the dust has settled.</p>
+<hr>
+ 
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/ruby-on-rails/">Ruby on Rails</a></li>
+        <li><a href="/tags/programming/">Programming</a></li>
+    </ul>
+  </div>
+
+
+<p style="margin-top: 2rem">
+  <a href="mailto:silva@cfsilva.com?subject=Re: Why&#43;I&#43;Think&#43;Ruby&#43;on&#43;Rails&#43;Is&#43;Better&#43;Than&#43;Next.js">
+    📬 Discuss this post with me
+  </a>
+</p>
+</main>
+      <footer><div class="div-footer">
+  <a href="/">[home]</a>
+  ~
+  <a target="_blank" href="mailto:silva@cfsilva.com">[email]</a>
+  ~
+  <a target="_blank" href="/pgp.asc">[pgp]</a>
+  ~
+  <a target="_blank" href="https://github.com/s1lvax">[github]</a>
+  ~
+  <a href="/books">[reading list]</a>
+  ~
+  <a href="/movies">[movie list]</a>
+</div>
+</footer>
+    </div>
+  </body>
+</html>

@@ -1,4 +1,5 @@
-{{ define "main" }} <a href="/posts">[<- Back]</a><br />
+{{ define "main" }}
+<a href="/posts">[← Back]</a><br />
 
 <h1>{{ .Title }}</h1>
 
@@ -6,5 +7,11 @@
 $dateHuman := .Date | time.Format ":date_long" }}
 <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 
-{{ .Content }} {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} {{
-end }}
+{{ .Content }} {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+<p style="margin-top: 2rem">
+  <a href="mailto:silva@cfsilva.com?subject=Re: {{ urlquery .Title }}">
+    📬 Discuss this post with me
+  </a>
+</p>
+{{ end }}

@@ -52,7 +52,7 @@ header {
 .main-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
@@ -182,11 +182,9 @@ h3 {
 
 h1 {
   font-size: 3rem;
-  text-align: center;
 }
 
 h2 {
-  text-align: center;
   font-size: 2rem;
 }
 
