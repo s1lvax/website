@@ -2,7 +2,6 @@
 title = 'Why I Think Ruby on Rails Is Better Than Next.js'
 date = 2025-06-24T20:41:30+02:00
 draft = false
-tags = ["Ruby on Rails", "Programming"]
 +++
 
 Over the past few days, I’ve been working with Next.js on a project at my company. It’s one of my first serious experiences with the framework. I had briefly tried it before, but chose Svelte instead when working with TypeScript. These days, I prefer Ruby on Rails 8.
