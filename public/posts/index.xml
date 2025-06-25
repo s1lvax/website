@@ -4,7 +4,7 @@
     <title>Posts on Cesario&#39;s Website</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Cesario&#39;s Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Jun 2025 20:41:30 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</link>
       <pubDate>Tue, 24 Jun 2025 20:41:30 +0200</pubDate>
       <guid>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</guid>
-      <description>Over the past few days, I’ve been working with Next.js on a project at my company. It’s one of my first serious experiences with the framework. I had briefly tried it before, but chose Svelte instead when working with TypeScript. These days, I prefer Ruby on Rails 8.&#xA;Now that I’ve spent some time building real features with what many call the most popular framework in the world, I honestly can’t understand why it’s so mainstream.</description>
+      <description>&lt;p&gt;Over the past few days, I’ve been working with Next.js on a project at my company. It’s one of my first serious experiences with the framework. I had briefly tried it before, but chose Svelte instead when working with TypeScript. These days, I prefer Ruby on Rails 8.&lt;/p&gt;&#xA;&lt;p&gt;Now that I’ve spent some time building real features with what many call the most popular framework in the world, I honestly can’t understand why it’s so mainstream.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How My Love for Tech Pushed Me to Digital Minimalism</title>
       <link>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</link>
       <pubDate>Mon, 11 Dec 2023 13:05:48 +0200</pubDate>
       <guid>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</guid>
-      <description>My Love for Technology From the earliest days I can remember, my passion for technology, electronics, and engineering was ever-present. I recall sitting at my father’s old ASUS laptop before I even knew how to write, meticulously typing out a short password from memory. It was my gateway to exploration and discovery.&#xA;One of my fondest memories is playing Windows Pinball with my dad for hours. It’s a memory that brings a smile to my face even now.</description>
+      <description>&lt;h2 id=&#34;my-love-for-technology&#34;&gt;My Love for Technology&lt;/h2&gt;&#xA;&lt;p&gt;From the earliest days I can remember, my passion for technology, electronics, and engineering was ever-present. I recall sitting at my father’s old ASUS laptop before I even knew how to write, meticulously typing out a short password from memory. It was my gateway to exploration and discovery.&lt;/p&gt;&#xA;&lt;p&gt;One of my fondest memories is playing Windows Pinball with my dad for hours. It’s a memory that brings a smile to my face even now. He was exceptional at the game, and it only added to the hero-like image I had of him. Then came the day we somehow got &lt;em&gt;GTA San Andreas&lt;/em&gt; installed on that laptop. It marked a new era of excitement—I would game for just an hour a day, but that hour was sacred. Every moment felt fleeting, filled with the sheer thrill of getting unlimited money with cheat codes, strapping on a jetpack, and causing havoc atop the San Andreas hospital. It wasn’t just gaming—it was a ritual after a long day at school, a reward that came only after spending time socializing and connecting with my friends and family.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

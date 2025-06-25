@@ -4,7 +4,7 @@
     <title>Movies on Cesario&#39;s Website</title>
     <link>http://localhost:1313/movies/</link>
     <description>Recent content in Movies on Cesario&#39;s Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Jun 2025 21:39:48 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/movies/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/movies/12-angry-men/</link>
       <pubDate>Wed, 11 Jun 2025 21:39:48 +0200</pubDate>
       <guid>http://localhost:1313/movies/12-angry-men/</guid>
-      <description>My Review This film centers on a jury of 12 men who must decide the verdict in the case of an 18-year-old defendant. After the evidence is presented, the jurors are sequestered in a room to deliberate the young man&amp;rsquo;s fate. If found guilty, he will be sentenced to death by the electric chair.&#xA;When the initial vote is taken, eleven jurors vote guilty. Only one, Juror #8, who we later learn is named Mr.</description>
+      <description>&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;This film centers on a jury of 12 men who must decide the verdict in the case of an 18-year-old defendant. After the evidence is presented, the jurors are sequestered in a room to deliberate the young man&amp;rsquo;s fate. If found guilty, he will be sentenced to death by the electric chair.&lt;/p&gt;&#xA;&lt;p&gt;When the initial vote is taken, eleven jurors vote guilty. Only one, Juror #8, who we later learn is named Mr. Davis, votes not guilty.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

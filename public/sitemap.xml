@@ -5,15 +5,6 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-24T20:41:30+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
-    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ruby-on-rails/</loc>
-    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-24T20:41:30+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</loc>
     <lastmod>2025-06-24T20:41:30+02:00</lastmod>
   </url><url>
@@ -39,5 +30,7 @@
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
