@@ -6,8 +6,22 @@
     <description>Recent content in Home on Cesario&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jun 2025 20:41:30 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 21:33:45 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1984</title>
+      <link>http://localhost:1313/books/1984/</link>
+      <pubDate>Tue, 01 Jul 2025 21:33:45 +0200</pubDate>
+      <guid>http://localhost:1313/books/1984/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>The Count of Monte Cristo</title>
+      <link>http://localhost:1313/books/the-count-of-monte-cristo/</link>
+      <pubDate>Tue, 01 Jul 2025 21:27:34 +0200</pubDate>
+      <guid>http://localhost:1313/books/the-count-of-monte-cristo/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>Why I Think Ruby on Rails Is Better Than Next.js</title>
       <link>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</link>
@@ -37,11 +51,81 @@
       <description>&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;This film centers on a jury of 12 men who must decide the verdict in the case of an 18-year-old defendant. After the evidence is presented, the jurors are sequestered in a room to deliberate the young man&amp;rsquo;s fate. If found guilty, he will be sentenced to death by the electric chair.&lt;/p&gt;&#xA;&lt;p&gt;When the initial vote is taken, eleven jurors vote guilty. Only one, Juror #8, who we later learn is named Mr. Davis, votes not guilty.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>It Doesnt Have to Be Crazy at Work</title>
+      <link>http://localhost:1313/books/it-doesnt-have-to-be-crazy-at-work/</link>
+      <pubDate>Sat, 01 Mar 2025 21:31:01 +0200</pubDate>
+      <guid>http://localhost:1313/books/it-doesnt-have-to-be-crazy-at-work/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;&#xA;&lt;p&gt;Informative book about a different work philosophy.&lt;/p&gt;&#xA;&lt;p&gt;The book argues that it doesn&amp;rsquo;t have to be stressful, or as they say, &amp;ldquo;crazy&amp;rdquo; at work. With some simple steps, every company could be a much better place to work.&lt;/p&gt;&#xA;&lt;p&gt;Definitely recommend it, specially if you&amp;rsquo;re a Project Manager or a Business Owner.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Minimalism</title>
+      <link>http://localhost:1313/books/digital-minimalism/</link>
+      <pubDate>Tue, 04 Feb 2025 21:17:22 +0200</pubDate>
+      <guid>http://localhost:1313/books/digital-minimalism/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;&#xA;&lt;p&gt;Really important book in today&amp;rsquo;s day and age. It changed the way I look at technology, embracing minimalism.&#xA;Because of this book, I am outside more, I quit social media, I&amp;rsquo;m more productive and I&amp;rsquo;m happier.&#xA;If you feel like technology is no longer making a positive impact in your life, this is the book for you.&lt;/p&gt;&#xA;&lt;p&gt;The only issue I have and why I didn&amp;rsquo;t give it a rating of 5/5 is because of the pace. I believe that, in some instances, Mr. Newport repeats himself and lingers on a point for a tad bit too long.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Witcher Series - Sword of Destiny</title>
+      <link>http://localhost:1313/books/the-witcher-sword-of-destiny/</link>
+      <pubDate>Sat, 24 Aug 2024 21:13:21 +0200</pubDate>
+      <guid>http://localhost:1313/books/the-witcher-sword-of-destiny/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;&#xA;&lt;p&gt;Like the first one, it&amp;rsquo;s a pretty fun book. Here we finally get introduced to really cool characters that follow Geralt of Rivia for the rest of the series, which are really interesting.&lt;/p&gt;&#xA;&lt;p&gt;The monsters are always pretty intriguing and the world building is cool, although it certainly helps that I have the visuals of the game in my brain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Lord of the Rings - The Return of the King</title>
+      <link>http://localhost:1313/movies/the-lord-of-the-rings-the-return-of-the-king/</link>
+      <pubDate>Mon, 01 Jul 2024 21:41:27 +0200</pubDate>
+      <guid>http://localhost:1313/movies/the-lord-of-the-rings-the-return-of-the-king/</guid>
+      <description>&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;Cinema peaked when this movie came out.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s absolute perfection, 3h of pure entertainment, joy and even some tears.&lt;/p&gt;&#xA;&lt;p&gt;DEATHHHHHHHHHHHH!!!!!!!!!!&lt;/p&gt;&#xA;&lt;p&gt;FOR FRODO!!!!!!!!!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Lord of the Rings -  The Two Towers</title>
+      <link>http://localhost:1313/movies/the-lord-of-the-rings-the-two-towers/</link>
+      <pubDate>Mon, 01 Jul 2024 21:40:04 +0200</pubDate>
+      <guid>http://localhost:1313/movies/the-lord-of-the-rings-the-two-towers/</guid>
+      <description>&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;No review needed, best trilogy ever, no questions asked.&lt;/p&gt;&#xA;&lt;p&gt;5/5&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Lord of the Rings - Fellowship of the Ring</title>
+      <link>http://localhost:1313/movies/the-lord-of-the-rings-fellowship-of-the-ring/</link>
+      <pubDate>Mon, 01 Jul 2024 21:35:58 +0200</pubDate>
+      <guid>http://localhost:1313/movies/the-lord-of-the-rings-fellowship-of-the-ring/</guid>
+      <description>&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;The Fellowship of the Ring and The Lord of the Rings trilogy are much more than movies, they really are a vibe.&lt;/p&gt;&#xA;&lt;p&gt;Fellowships starts by introducing us to the world of Middle Earth, with Galadriel&amp;rsquo;s iconic monologue, and from there, the movie takes you on an awesome adventure to Rivendell.&lt;/p&gt;&#xA;&lt;p&gt;There is friendship, combat, courage, danger, amusement, and much much more.. What more do you need?&lt;/p&gt;&#xA;&lt;p&gt;I find myself rewatching the movies over and over again when I have nothing to do at home, they&amp;rsquo;re that good.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Witcher Series - The Last Wish</title>
+      <link>http://localhost:1313/books/the-witcher-the-last-wish/</link>
+      <pubDate>Mon, 01 Jul 2024 21:07:33 +0200</pubDate>
+      <guid>http://localhost:1313/books/the-witcher-the-last-wish/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;&#xA;&lt;p&gt;I am a huge fan of &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt&#34;&gt;The Witcher 3&lt;/a&gt; so it sparked the curiosity in me to read the books as well.&lt;/p&gt;&#xA;&lt;p&gt;The is the first one and honestly it&amp;rsquo;s pretty cool. We follow Geralt of Rivia in his adventures, which are always interesting and have some really cool twists and turns. Sometimes, it even goes deep into topics like morality, etc..&lt;/p&gt;&#xA;&lt;p&gt;Loved this one and after reading, immediately bought the second one.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How My Love for Tech Pushed Me to Digital Minimalism</title>
       <link>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</link>
       <pubDate>Mon, 11 Dec 2023 13:05:48 +0200</pubDate>
       <guid>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</guid>
       <description>&lt;h2 id=&#34;my-love-for-technology&#34;&gt;My Love for Technology&lt;/h2&gt;&#xA;&lt;p&gt;From the earliest days I can remember, my passion for technology, electronics, and engineering was ever-present. I recall sitting at my father’s old ASUS laptop before I even knew how to write, meticulously typing out a short password from memory. It was my gateway to exploration and discovery.&lt;/p&gt;&#xA;&lt;p&gt;One of my fondest memories is playing Windows Pinball with my dad for hours. It’s a memory that brings a smile to my face even now. He was exceptional at the game, and it only added to the hero-like image I had of him. Then came the day we somehow got &lt;em&gt;GTA San Andreas&lt;/em&gt; installed on that laptop. It marked a new era of excitement—I would game for just an hour a day, but that hour was sacred. Every moment felt fleeting, filled with the sheer thrill of getting unlimited money with cheat codes, strapping on a jetpack, and causing havoc atop the San Andreas hospital. It wasn’t just gaming—it was a ritual after a long day at school, a reward that came only after spending time socializing and connecting with my friends and family.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Way of the Superior Man</title>
+      <link>http://localhost:1313/books/the-way-of-the-superior-man/</link>
+      <pubDate>Mon, 02 May 2022 21:29:16 +0200</pubDate>
+      <guid>http://localhost:1313/books/the-way-of-the-superior-man/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;&#xA;&lt;p&gt;Pretty cool book with tons of advice on how to become a better version of yourself as a man.&lt;/p&gt;&#xA;&lt;p&gt;Not much to say about it without spoiling it, but it&amp;rsquo;s worth a read :).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Subtle Art of Not Giving a Fuck</title>
+      <link>http://localhost:1313/books/the-subtle-art-of-not-giving-a-fuck/</link>
+      <pubDate>Thu, 01 Jul 2021 21:00:10 +0200</pubDate>
+      <guid>http://localhost:1313/books/the-subtle-art-of-not-giving-a-fuck/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;&#xA;&lt;p&gt;Honestly, pretty fun book and you can definitely take some lessons out of it about not taking life too seriously and that your problems are really not that deep.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s obviously no material here if you want to get deep into important topics, just a lighthearted and fun book.&lt;/p&gt;&#xA;&lt;p&gt;Not bad :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cant Hurt Me</title>
+      <link>http://localhost:1313/books/cant-hurt-me/</link>
+      <pubDate>Thu, 05 Mar 2020 21:23:55 +0200</pubDate>
+      <guid>http://localhost:1313/books/cant-hurt-me/</guid>
+      <description>&lt;h2 id=&#34;my-thoughts&#34;&gt;My Thoughts&lt;/h2&gt;&#xA;&lt;p&gt;One of the books that truly changed my life. I listened to it during the COVID lockdowns.&lt;/p&gt;&#xA;&lt;p&gt;Because of the lockdowns, I got lazy and unwell. David Goggins and his book &amp;ldquo;Can&amp;rsquo;t Hurt Me&amp;rdquo; really helped me get off my feet and get to work. I started running and taking sports serious.&lt;/p&gt;&#xA;&lt;p&gt;This also allowed me to get some much needed fresh air during the lockdowns.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re feeling depressed, I wholeheartedly recommend it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

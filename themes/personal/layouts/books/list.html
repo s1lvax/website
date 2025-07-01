@@ -1,3 +1,4 @@
+
 {{ define "main" }}
 <h2>My Reading List</h2>
 <p>
@@ -6,10 +7,12 @@
   more serious posts, please <a href="/posts">visit the blog</a>.
 </p>
 
-{{ $now := now }} {{ $thisYear := $now.Year }} {{ $readBooks := where .Pages
-"Params.status" "read" }} {{ $readThisYear := where $readBooks ".Date.Year"
-$thisYear }} {{ $readAllTime := len $readBooks }} {{ $readThisYearCount := len
-$readThisYear }} {{/* ========================== */}}
+{{ $now := now }}
+{{ $thisYear := $now.Year }}
+{{ $readBooks := where .Pages "Params.status" "read" }}
+{{ $readThisYear := where $readBooks ".Date.Year" $thisYear }}
+{{ $readAllTime := len $readBooks }}
+{{ $readThisYearCount := len $readThisYear }}
 
 <div class="reading-stats">
   <p>
@@ -22,29 +25,47 @@ $readThisYear }} {{/* ========================== */}}
   </p>
 </div>
 
-<div class="reading-grid">
-  <div class="reading-column">
-    <h3>Read</h3>
-    <ul>
-      {{ range where .Pages "Params.status" "read" }}
-      <li>
-        <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a> -
-        <span class="rating"
-          >{{ range seq 1 5 }}{{ if le . $.Params.rating }}★{{ else }}☆{{ end
-          }}{{ end }}</span
-        >
-      </li>
-      {{ end }}
-    </ul>
-  </div>
+<div class="reading-table" style="width: 100%; display: table; table-layout: fixed;">
+  <div style="display: table-row;">
+    <!-- Read Column -->
+    <div style="display: table-cell; vertical-align: top; padding-right: 2rem; width: 50%;">
+      <h3>Read</h3>
+      <table style="width: 100%;">
+        <tbody>
+          {{ $readSorted := sort (where .Pages "Params.status" "read") "Title" }}
+          {{ range $readSorted }}
+          <tr>
+            <td style="width: 70%;">
+              <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </td>
+            <td style="width: 30%; white-space: nowrap;">
+              <span class="rating">
+                {{ $rating := .Params.rating }}
+                {{ range seq 1 $rating }}★{{ end }}
+              </span>
+            </td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
 
-  <div class="reading-column">
-    <h3>Planning to Read</h3>
-    <ul>
-      {{ range where .Pages "Params.status" "planning" }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> -</li>
-      {{ end }}
-    </ul>
+    <!-- Planning Column -->
+    <div style="display: table-cell; vertical-align: top; width: 50%;">
+      <h3>Planning to Read</h3>
+      <table style="width: 100%;">
+        <tbody>
+          {{ $planningSorted := sort (where .Pages "Params.status" "planning") "Title" }}
+          {{ range $planningSorted }}
+          <tr>
+            <td>
+              <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 {{ end }}

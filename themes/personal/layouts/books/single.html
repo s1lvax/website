@@ -7,9 +7,10 @@ $dateHuman := .Date | time.Format ":date_long" }}
 
 <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 <p class="rating">
-  {{ range seq 1 5 }} {{ if le . $.Params.rating }}★{{ else }}☆{{ end }} {{ end
-  }}
+  {{ $rating := .Params.rating }}
+  {{ range seq 1 $rating }}★{{ end }}
 </p>
+
 
 {{ .Content }} {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} {{
 end }}

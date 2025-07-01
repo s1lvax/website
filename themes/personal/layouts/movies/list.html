@@ -1,3 +1,4 @@
+
 {{ define "main" }}
 <h2>My Movie List</h2>
 <p>
@@ -6,11 +7,13 @@
   for more serious posts, please <a href="/posts">visit the blog</a>.
 </p>
 
-{{ $now := now }} {{ $thisYear := $now.Year }} {{ $watched := where .Pages
-"Params.status" "watched" }} {{ $planning := where .Pages "Params.status"
-"planning" }} {{ $watchedThisYear := where $watched ".Date.Year" $thisYear }} {{
-$watchedAllTime := len $watched }} {{ $watchedThisYearCount := len
-$watchedThisYear }}
+{{ $now := now }}
+{{ $thisYear := $now.Year }}
+{{ $watched := where .Pages "Params.status" "watched" }}
+{{ $planning := where .Pages "Params.status" "planning" }}
+{{ $watchedThisYear := where $watched ".Date.Year" $thisYear }}
+{{ $watchedAllTime := len $watched }}
+{{ $watchedThisYearCount := len $watchedThisYear }}
 
 <div class="media-stats">
   <p>
@@ -23,31 +26,47 @@ $watchedThisYear }}
   </p>
 </div>
 
-<div class="media-grid">
-  <div class="media-column">
-    <h3>Watched</h3>
-    <ul class="media-list">
-      {{ range $watched }}
-      <li>
-        <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <span class="rating">
-          {{ range seq 1 5 }}{{ if le . $.Params.rating }}★{{ else }}☆{{ end
-          }}{{ end }}
-        </span>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
+<div class="media-table" style="width: 100%; display: table; table-layout: fixed;">
+  <div style="display: table-row;">
+    <!-- Watched Column -->
+    <div style="display: table-cell; vertical-align: top; padding-right: 2rem; width: 50%;">
+      <h3>Watched</h3>
+      <table style="width: 100%;">
+        <tbody>
+          {{ $watchedSorted := sort $watched "Title" }}
+          {{ range $watchedSorted }}
+          <tr>
+            <td style="width: 70%;">
+              <a class="blog-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </td>
+            <td style="width: 30%; white-space: nowrap;">
+              <span class="rating">
+                {{ $rating := .Params.rating }}
+                {{ range seq 1 $rating }}★{{ end }}
+              </span>
+            </td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
 
-  <div class="media-column">
-    <h3>Planning to Watch</h3>
-    <ul class="media-list">
-      {{ range $planning }}
-      <li>
-        <a class="media-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
+    <!-- Planning Column -->
+    <div style="display: table-cell; vertical-align: top; width: 50%;">
+      <h3>Planning to Watch</h3>
+      <table style="width: 100%;">
+        <tbody>
+          {{ $planningSorted := sort $planning "Title" }}
+          {{ range $planningSorted }}
+          <tr>
+            <td>
+              <a class="media-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 {{ end }}

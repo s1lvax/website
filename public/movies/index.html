@@ -28,8 +28,6 @@
   </head>
   <body>
     <div class="container">
-      <header><a href="/"><h1>Cesario&#39;s Website</h1></a>
-</header>
       <main>
 <h2>My Movie List</h2>
 <p>
@@ -38,12 +36,18 @@
   for more serious posts, please <a href="/posts">visit the blog</a>.
 </p>
 
-      
+
+
+
+
+
+
+
 
 <div class="media-stats">
   <p>
     <span class="stat-label">🎬 Total Watched:</span>
-    <span class="stat-number">1</span>
+    <span class="stat-number">4</span>
   </p>
   <p>
     <span class="stat-label">📆 Watched in 2025:</span>
@@ -51,26 +55,77 @@
   </p>
 </div>
 
-<div class="media-grid">
-  <div class="media-column">
-    <h3>Watched</h3>
-    <ul class="media-list">
-      
-      <li>
-        <a class="blog-entry" href="/movies/12-angry-men/">12 Angry Men</a>
-        <span class="rating">
-          ☆☆☆☆☆
-        </span>
-      </li>
-      
-    </ul>
-  </div>
+<div class="media-table" style="width: 100%; display: table; table-layout: fixed;">
+  <div style="display: table-row;">
+    
+    <div style="display: table-cell; vertical-align: top; padding-right: 2rem; width: 50%;">
+      <h3>Watched</h3>
+      <table style="width: 100%;">
+        <tbody>
+          
+          
+          <tr>
+            <td style="width: 70%;">
+              <a class="blog-entry" href="/movies/12-angry-men/">12 Angry Men</a>
+            </td>
+            <td style="width: 30%; white-space: nowrap;">
+              <span class="rating">
+                
+                ★★★★
+              </span>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="width: 70%;">
+              <a class="blog-entry" href="/movies/the-lord-of-the-rings-the-two-towers/">The Lord of the Rings -  The Two Towers</a>
+            </td>
+            <td style="width: 30%; white-space: nowrap;">
+              <span class="rating">
+                
+                ★★★★★
+              </span>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="width: 70%;">
+              <a class="blog-entry" href="/movies/the-lord-of-the-rings-fellowship-of-the-ring/">The Lord of the Rings - Fellowship of the Ring</a>
+            </td>
+            <td style="width: 30%; white-space: nowrap;">
+              <span class="rating">
+                
+                ★★★★★
+              </span>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="width: 70%;">
+              <a class="blog-entry" href="/movies/the-lord-of-the-rings-the-return-of-the-king/">The Lord of the Rings - The Return of the King</a>
+            </td>
+            <td style="width: 30%; white-space: nowrap;">
+              <span class="rating">
+                
+                ★★★★★
+              </span>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
 
-  <div class="media-column">
-    <h3>Planning to Watch</h3>
-    <ul class="media-list">
-      
-    </ul>
+    
+    <div style="display: table-cell; vertical-align: top; width: 50%;">
+      <h3>Planning to Watch</h3>
+      <table style="width: 100%;">
+        <tbody>
+          
+          
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 </main>

@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/movies/</loc>
+    <lastmod>2025-07-01T21:41:27+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/movies/the-lord-of-the-rings-the-return-of-the-king/</loc>
+    <lastmod>2025-07-01T21:41:27+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/1984/</loc>
+    <lastmod>2025-07-01T21:33:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/</loc>
+    <lastmod>2025-07-01T21:33:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-count-of-monte-cristo/</loc>
+    <lastmod>2025-07-01T21:27:34+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-24T20:41:30+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/why-i-think-ruby-y-on-rails-is-better-than-nextjs/</loc>
     <lastmod>2025-06-24T20:41:30+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/books/</loc>
-    <lastmod>2025-06-11T22:31:53+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/red-rising/</loc>
     <lastmod>2025-06-11T22:31:53+02:00</lastmod>
@@ -20,14 +32,38 @@
     <loc>http://localhost:1313/movies/12-angry-men/</loc>
     <lastmod>2025-06-11T21:39:48+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/movies/</loc>
-    <lastmod>2025-06-11T21:39:48+02:00</lastmod>
+    <loc>http://localhost:1313/books/it-doesnt-have-to-be-crazy-at-work/</loc>
+    <lastmod>2025-03-01T21:31:01+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/digital-minimalism/</loc>
+    <lastmod>2025-02-04T21:17:22+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-witcher-sword-of-destiny/</loc>
+    <lastmod>2024-08-24T21:13:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/movies/the-lord-of-the-rings-the-two-towers/</loc>
+    <lastmod>2024-07-01T21:40:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/movies/the-lord-of-the-rings-fellowship-of-the-ring/</loc>
+    <lastmod>2024-07-01T21:35:58+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-witcher-the-last-wish/</loc>
+    <lastmod>2024-07-01T21:07:33+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/how-my-love-for-tech-pushed-me-to-digital-minimalism/</loc>
     <lastmod>2023-12-11T13:05:48+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-way-of-the-superior-man/</loc>
+    <lastmod>2022-05-02T21:29:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-subtle-art-of-not-giving-a-fuck/</loc>
+    <lastmod>2021-07-01T21:00:10+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/cant-hurt-me/</loc>
+    <lastmod>2020-03-05T21:23:55+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

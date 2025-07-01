@@ -1,7 +1,7 @@
 +++
 title = "12 Angry Men"
 date = 2025-06-11T21:39:48+02:00
-rating = 5
+rating = 4
 genre = ['Thriller', 'Crime']
 draft = false
 status = "watched"
